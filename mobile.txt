@@ -1,3 +1,12 @@
+![Adblock Plus 2.0]
+! Title: No Thanks
+! Description: ABP rules that removes download-apps tips and annoying promotion messages.
+! Version: 0.1
+! TimeUpdated: 2021-08-06T01:30:55+00:00
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/Lehmaning/nothx
+! License: WTFPLv2
+
 ! Global Rules
 ||web.openinstall.io$xhr
 ||res.cdn.openinstall.io/openinstall.js$script
@@ -7,9 +16,33 @@
 ! csdn.net
 ||statistic.csdn.net/*?step=install$xhr
 ||csdnimg.cn/*/mobile/*$script
+blog.csdn.net##.btn_open_app_prompt_div
+||download.csdn.net
 
 ! jianshu.com
 jianshu.com##.call-app-btn
 jianshu.com##.header-download
 jianshu.com##.line-container
 jianshu.com##.download
+
+! zhihu.com
+||oia.zhihu.com
+zhihu.com##.DownloadGuide.Card
+zhihu.com##.List div[class$="PreviewCommentContent"] > div:last-child
+zhihu.com##.HotQuestions-bottomButton
+
+! m.bilibili.com
+||d.bilibili.com
+||dl.hdslb.com
+m.bilibili.com##.home-float-openapp.open-app-btn
+m.bilibili.com##.m-float-openapp.open-app-btn
+m.bilibili.com##.m-video2-openapp-img
+m.bilibili.com##.nav-open-app-img
+m.bilibili.com##.open-app
+m.bilibili.com##.player-mobile-widescreen-callapp
+m.bilibili.com##.player-mobile-control-dot
+m.bilibili.com##.m-comment-openapp.open-app-btn
+
+! music.163.com
+||d1.music.126.net #DNS或Hosts屏蔽该域名可防止后台自动下载安装包
+y.music.163.com##.topfr
