@@ -1,0 +1,76 @@
+![Adblock Plus 2.0]
+! Title: No Thanks
+! Description: ABP rules that removes download-apps tips and annoying promotion messages.
+! Version: 0.1
+! TimeUpdated: 2021-08-06T01:30:55+00:00
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/Lehmaning/nothx
+! License: WTFPLv2
+
+! Global Rules
+||web.openinstall.io$xhr
+||res.cdn.openinstall.io/openinstall.js$script
+||pstatp.com/*/push.js$script
+||bdstatic.com/*/push.js$script
+
+! csdn.net
+||statistic.csdn.net/*?step=install$xhr
+||csdnimg.cn/*/mobile/*$script
+
+! jianshu.com
+jianshu.com##.call-app-btn
+jianshu.com##.header-download
+jianshu.com##.line-container
+jianshu.com##.download
+
+! bilibili.com
+bilibili.com##.nav-wrapper-right li.nav-item:nth-of-type(2)
+bilibili.com##.mobile.nav-item
+t.bilibili.com#@#.share-btn
+
+! sourceforge.net
+sourceforge.net###nels
+
+! nicovideo.jp
+www.nicovideo.jp##.IchibaContainer.Card
+
+! www.deepl.com
+www.deepl.com##.dl_app_ad__container
+
+! mail.qq.com
+mail.qq.com##.resume_red_new
+mail.qq.com##.ico_rednew
+
+! ping.chinaz.com
+ping.chinaz.com##.topTsCenter.fr
+ping.chinaz.com###topTxt
+ping.chinaz.com###navAfter
+ping.chinaz.com###loc
+||csstools.chinaz.com/tools/images/public/agg01.gif$image
+ping.chinaz.com###centerTxt
+ping.chinaz.com##.clearfix.ToolsImgWrap
+ping.chinaz.com###toolsIntro
+ping.chinaz.com##div.mt10.wrapper:nth-of-type(7)
+ping.chinaz.com###pingImg
+
+! pan.baidu.com
+pan.baidu.com##.module-header dl > dd:nth-of-type(3)
+pan.baidu.com##.animate-level-0.animate-start
+pan.baidu.com##.vipicon-ordinary.cover.JS-user-level
+pan.baidu.com##.JS-nativeupload-tip
+pan.baidu.com##.newIcon
+pan.baidu.com##.find-light-icon
+pan.baidu.com##.vip-notice
+pan.baidu.com##.vip-privilege
+pan.baidu.com##.rights-section
+pan.baidu.com##.g-clearfix.wp-side-options
+pan.baidu.com###web-multi-bottom
+pan.baidu.com###web-right-view
+pan.baidu.com##.app-download
+pan.baidu.com####.web-header-ad-item
+pan.baidu.com##.wp-disk-header__right-item:nth-of-type(7)
+
+! xueanquan.com
+xueanquan.com##.AppDown
+! xueanquan.com##.wechat-cont
+! xueanquan.com##.chatBtn
