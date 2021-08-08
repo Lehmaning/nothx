@@ -1,0 +1,15 @@
+! Global Rules
+||web.openinstall.io$xhr
+||res.cdn.openinstall.io/openinstall.js$script
+||pstatp.com/*/push.js$script
+||bdstatic.com/*/push.js$script
+
+! csdn.net
+||statistic.csdn.net/*?step=install$xhr
+||csdnimg.cn/*/mobile/*$script
+
+! jianshu.com
+jianshu.com##.call-app-btn
+jianshu.com##.header-download
+jianshu.com##.line-container
+jianshu.com##.download
