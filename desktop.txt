@@ -12,6 +12,7 @@
 ||res.cdn.openinstall.io/openinstall.js$script
 ||pstatp.com/*/push.js$script
 ||bdstatic.com/*/push.js$script
+! /sa.gif?
 
 ! csdn.net
 ||statistic.csdn.net/*?step=install$xhr
@@ -74,3 +75,6 @@ pan.baidu.com##.wp-disk-header__right-item:nth-of-type(7)
 xueanquan.com##.AppDown
 ! xueanquan.com##.wechat-cont
 ! xueanquan.com##.chatBtn
+
+! jianshu.com
+jianshu.com##div > div > div > div :-abp-contains(更多精彩内容，就在简书APP) > div:nth-of-type(1)
