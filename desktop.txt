@@ -24,9 +24,14 @@ jianshu.com##.header-download
 jianshu.com##.line-container
 jianshu.com##.download
 
+! acfun.cn
+acfun.cn##.app-guide
+acfun.cn##span.new
+
 ! bilibili.com
 bilibili.com##.nav-wrapper-right li.nav-item:nth-of-type(2)
 bilibili.com##.mobile.nav-item
+www.bilibili.com##.extension
 t.bilibili.com#@#.share-btn
 
 ! sourceforge.net
