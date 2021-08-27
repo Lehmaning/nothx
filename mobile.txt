@@ -15,7 +15,7 @@
 
 ! csdn.net
 ||statistic.csdn.net/*?step=install$xhr
-||csdnimg.cn/*/mobile/*$script
+!||csdnimg.cn/*/mobile/*$script
 blog.csdn.net##.btn_open_app_prompt_div
 ||download.csdn.net
 
