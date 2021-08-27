@@ -32,7 +32,6 @@ acfun.cn##span.new
 bilibili.com##.nav-wrapper-right li.nav-item:nth-of-type(2)
 bilibili.com##.mobile.nav-item
 www.bilibili.com##.extension
-t.bilibili.com#@#.share-btn
 
 ! sourceforge.net
 sourceforge.net###nels
@@ -46,18 +45,6 @@ www.deepl.com##.dl_app_ad__container
 ! mail.qq.com
 mail.qq.com##.resume_red_new
 mail.qq.com##.ico_rednew
-
-! ping.chinaz.com
-ping.chinaz.com##.topTsCenter.fr
-ping.chinaz.com###topTxt
-ping.chinaz.com###navAfter
-ping.chinaz.com###loc
-||csstools.chinaz.com/tools/images/public/agg01.gif$image
-ping.chinaz.com###centerTxt
-ping.chinaz.com##.clearfix.ToolsImgWrap
-ping.chinaz.com###toolsIntro
-ping.chinaz.com##div.mt10.wrapper:nth-of-type(7)
-ping.chinaz.com###pingImg
 
 ! pan.baidu.com
 pan.baidu.com##.module-header dl > dd:nth-of-type(3)
@@ -83,3 +70,29 @@ xueanquan.com##.AppDown
 
 ! jianshu.com
 jianshu.com##div > div > div > div :-abp-contains(更多精彩内容，就在简书APP) > div:nth-of-type(1)
+www.jianshu.com##div > canvas
+www.jianshu.com##div[role="button"] > img
+www.jianshu.com##div[role="button"] > div
+www.jianshu.com##div[aria-label="抽奖关闭"]
+
+! ask.zol.com.cn
+ask.zol.com.cn##.side-weixin-box
+ask.zol.com.cn##.bb.pv-mol_ask
+ask.zol.com.cn###app-download-module
+ask.zol.com.cn###relatedProduct
+ask.zol.com.cn###rightMol > .bb.positions
+
+! zhidao.baidu.com
+zhidao.baidu.com##.iknow-icons::after
+zhidao.baidu.com##.new-icon
+
+! ping.chinaz.com
+ping.chinaz.com###loc
+ping.chinaz.com###navAfter
+ping.chinaz.com###topTxt
+ping.chinaz.com##.clearfix.ToolsTxtWrap
+ping.chinaz.com##.clearfix.ToolsImgWrap
+ping.chinaz.com##.toolvip
+ping.chinaz.com###toolsIntro
+ping.chinaz.com###bottomImg
+ping.chinaz.com###pingImg
