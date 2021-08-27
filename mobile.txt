@@ -30,6 +30,7 @@ jianshu.com##.download
 zhihu.com##.DownloadGuide.Card
 zhihu.com##.List div[class$="PreviewCommentContent"] > div:last-child
 zhihu.com##.HotQuestions-bottomButton
+zhihu.com##div.Modal-wrapper:has(:scope > .signFlowModal .Qrcode-container)
 
 ! m.bilibili.com
 ||d.bilibili.com
@@ -44,5 +45,5 @@ m.bilibili.com##.player-mobile-control-dot
 m.bilibili.com##.m-comment-openapp.open-app-btn
 
 ! music.163.com
-||d1.music.126.net #DNS或Hosts屏蔽该域名可防止后台自动下载安装包
+||d1.music.126.net
 y.music.163.com##.topfr
