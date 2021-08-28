@@ -47,3 +47,7 @@ m.bilibili.com##.m-comment-openapp.open-app-btn
 ! music.163.com
 ||d1.music.126.net
 y.music.163.com##.topfr
+
+! c.tieba.baidu.com
+byokpg.smartapps.cn##div[class~="ad-expose"]
+byokpg.smartapps.cn##div[class~="bdad-wrap"]
