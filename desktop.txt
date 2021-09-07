@@ -96,3 +96,6 @@ ping.chinaz.com##.toolvip
 ping.chinaz.com###toolsIntro
 ping.chinaz.com###bottomImg
 ping.chinaz.com###pingImg
+
+! music.163.com
+music.163.com##.hot
